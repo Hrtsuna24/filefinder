@@ -14,5 +14,4 @@
 #include <iostream>
 #include <thread>
 
-void fnStaticLibFileFinder(const std::string& serachingIn, const std::string& target);
 #endif //PCH_H

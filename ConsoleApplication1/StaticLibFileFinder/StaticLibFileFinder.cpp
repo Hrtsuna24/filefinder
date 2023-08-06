@@ -3,12 +3,12 @@
 
 #include "pch.h"
 #include "framework.h"
+#include "fnStaticLibFileFinder.h"
 #include "FileMonitor.h"
 #include <filesystem>
 #include <array>
 // TODO: This is an example of a library function
 
-using std::string;
 using std::filesystem::path;
 using std::filesystem::directory_iterator;
 using std::future;

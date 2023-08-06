@@ -1,5 +1,5 @@
-//#include "fnStaticLibFileFinder.cpp"
-#include "../StaticLibFileFinder/pch.h"
+#include "fnStaticLibFileFinder.h"
+
 int main()
 {
 	fnStaticLibFileFinder("D:\\", "TV_a.FBX");
