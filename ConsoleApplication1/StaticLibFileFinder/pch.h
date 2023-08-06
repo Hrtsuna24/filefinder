@@ -9,5 +9,10 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <string>
+#include <future>
+#include <iostream>
+#include <thread>
 
+void fnStaticLibFileFinder(const std::string& serachingIn, const std::string& target);
 #endif //PCH_H
