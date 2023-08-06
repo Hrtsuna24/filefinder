@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{46554B2F-B494-4CBC-8265-958A6F5D29BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibFileFinder", "StaticLibFileFinder\StaticLibFileFinder.vcxproj", "{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{46554B2F-B494-4CBC-8265-958A6F5D29BA}.Release|x64.Build.0 = Release|x64
 		{46554B2F-B494-4CBC-8265-958A6F5D29BA}.Release|x86.ActiveCfg = Release|Win32
 		{46554B2F-B494-4CBC-8265-958A6F5D29BA}.Release|x86.Build.0 = Release|Win32
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Debug|x64.ActiveCfg = Debug|x64
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Debug|x64.Build.0 = Debug|x64
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Debug|x86.Build.0 = Debug|Win32
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Release|x64.ActiveCfg = Release|x64
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Release|x64.Build.0 = Release|x64
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Release|x86.ActiveCfg = Release|Win32
+		{B9D788EC-0D4B-4A2C-8637-857A26A53CC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
