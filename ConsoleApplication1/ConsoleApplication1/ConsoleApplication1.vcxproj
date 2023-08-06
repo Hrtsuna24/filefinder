@@ -132,6 +132,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="FileMonitor.cpp" />
+    <ClCompile Include="listDir.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileMonitor.h" />
+    <ClInclude Include="listDir.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
