@@ -17,6 +17,8 @@ using std::future;
 using std::cout;
 using std::async;
 using std::ref;
+#include <list>
+using std::list;
 
 //vector<string> listDir(path const& dir);
 //
@@ -25,3 +27,5 @@ using std::ref;
 void listDir(string path, FileMonitor& fileSink);
 
 void listDirs(vector<path> paths, FileMonitor& fileSink);
+
+void get_files(FileMonitor& directory_to_visit, const std::string& target);
